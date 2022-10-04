@@ -53,7 +53,7 @@ class SPAM:
  ▒ ░▒░ ░  ▒   ▒▒ ░░ ░░   ░ ▒░ ▒ ░   ░ ░▒  ░ ░░▒ ░       ▒   ▒▒ ░░  ░      ░
  ░  ░░ ░  ░   ▒      ░   ░ ░  ▒ ░   ░  ░  ░  ░░         ░   ▒   ░      ░                                                                                   
  ░  ░  ░      ░  ░         ░  ░           ░                 ░  ░       ░                              \n\n'''
-        print(Colorate.Vertical(Colors.DynamicMIX((Col.light_blue, Col.light_gray)), Center.XCenter(title)) + Colorate.Vertical(Colors.DynamicMIX((Col.light_green, Col.light_magenta)), Center.XCenter(banner)))
+        print(Colorate.Vertical(Colors.DynamicMIX((Col.light_blue, Col.light_gray)), Center.XCenter(title)) + Colorate.Vertical(Colors.DynamicMIX((Col.light_green, Col.light_red)), Center.XCenter(banner)))
     def random_string(self, length):
             number = '0123456789'
             alpha = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNPQRSTUVWXYZ'
