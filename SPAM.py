@@ -43,7 +43,7 @@ class SPAM:
         return f"""                      {Col.Symbol(symbol, self.red, self.blue)} {self.red}{text}{Col.reset}"""
     def banner(self):
         os.system("cls" if os.name == "nt" else "clear")
-        title = '\n\n\n---TOOL SPAM SMS+CALL MOMO DagTriZaker MOD---'
+        title = '\n\n\n• TOOL SPAM SMS+CALL MOMO HANI SPAM •'
         banner = '''\n  ██░ ██  ▄▄▄       ███▄    █  ██▓     ██████  ██▓███   ▄▄▄       ███▄ ▄███▓ 
 ▓██░ ██▒▒████▄     ██ ▀█   █ ▓██▒   ▒██    ▒ ▓██░  ██▒▒████▄    ▓██▒▀█▀ ██▒
 ▒██▀▀██░▒██  ▀█▄  ▓██  ▀█ ██▒▒██▒   ░ ▓██▄   ▓██░ ██▓▒▒██  ▀█▄  ▓██    ▓██░
@@ -53,7 +53,7 @@ class SPAM:
  ▒ ░▒░ ░  ▒   ▒▒ ░░ ░░   ░ ▒░ ▒ ░   ░ ░▒  ░ ░░▒ ░       ▒   ▒▒ ░░  ░      ░
  ░  ░░ ░  ░   ▒      ░   ░ ░  ▒ ░   ░  ░  ░  ░░         ░   ▒   ░      ░                                                                                   
  ░  ░  ░      ░  ░         ░  ░           ░                 ░  ░       ░                              \n\n'''
-        print(Colorate.Vertical(Colors.DynamicMIX((Col.light_green, Col.light_gray)), Center.XCenter(title)) + Colorate.Vertical(Colors.DynamicMIX((Col.light_red, Col.light_blue)), Center.XCenter(banner)))
+        print(Colorate.Vertical(Colors.DynamicMIX((Col.light_yellow, Col.light_gray)), Center.XCenter(title)) + Colorate.Vertical(Colors.DynamicMIX((Col.light_green, Col.light_magenta)), Center.XCenter(banner)))
     def random_string(self, length):
             number = '0123456789'
             alpha = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNPQRSTUVWXYZ'
